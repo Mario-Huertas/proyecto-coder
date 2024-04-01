@@ -1,0 +1,151 @@
+
+header {
+    
+    background-color:  rgb(133, 40, 40) ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;    
+    }
+
+header nav {
+    display:flex;
+    }
+
+header nav a {
+    position: relative;
+    left: 220px;
+    color:rgb(252, 255, 254)
+    }
+header div {
+   display: flex;
+    }
+
+body{
+    background-color:rgb(107, 112, 99);
+    }
+.antes-carrusel p {
+    padding: 20px;
+    background-color: rgb(179, 192, 158);
+    color: black;
+}
+
+.carrousel1{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+    }
+
+footer {
+    
+    padding: 6px;
+    background-color:rgb(133, 40, 40);
+    }
+
+.footerlook div {
+        display: flex;
+        justify-content: space-around;
+    }
+
+.galeria{
+    background-color: aqua;
+    }
+
+/*galeria con  grid*/
+
+.grid-container{
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+
+    grid-template-columns: 300px 300px 300px 300px ;
+    grid-template-rows: 154px 154px 154px 154px;
+
+    row-gap: 10px;
+    column-gap: 10px; 
+    }
+
+.grid-item1{
+    background-color: rgb(219, 160, 160);
+    grid-column: 1/3;
+    grid-row: 1/3;
+    }
+
+.grid-item2{
+    background-color: white;
+    grid-column: 3/5;
+    grid-row: 1/3;
+    }
+
+.grid-item3{
+    background-color: rgb(126, 23, 23);
+    grid-column: 1/3;
+    grid-row: 3/5;
+    }
+
+.grid-item4{
+    background-color: rgb(32, 12, 12);
+    grid-column: 3/5;
+    grid-row: 3/5;
+}
+
+.div-recetas{
+    display: flex;
+    
+}
+
+.grid-container-recetas{
+    display: grid;
+    justify-content: space-around;
+   
+    padding: 5px;
+    margin: 10px;
+
+    grid-template-columns: 250px 250px 250px 250px ;
+    grid-template-rows: 154px 154px 154px 154px;
+
+    row-gap: 5px;
+    column-gap: 5px; 
+    }
+.grid-receta1{
+        background-color: beige;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+.grid-receta2{
+        background-color: rgb(212, 212, 30);
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+.grid-receta3{
+        background-color: rgb(38, 14, 122);
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+.grid-receta4{
+        background-color: rgb(24, 150, 45);
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+.grid-receta5{
+        background-color: beige;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+.grid-receta6{
+        background-color: rgb(212, 212, 30);
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+.grid-receta7{
+        background-color: rgb(38, 14, 122);
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+.grid-receta8{
+        background-color: rgb(24, 150, 45);
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
