@@ -1,33 +1,48 @@
-
-
-
-header {
-    
-    background-color:  rgb(133, 40, 40) ;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:x-large;    
-    }
-
-header nav {
-    display:flex;
-    }
-
-header nav a {
-    position: relative;
-    left: 220px;
-    color:rgb(252, 255, 254)
-    }
-header div {
-   display: flex;
-    }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
     background-color:rgb(107, 112, 99);
     }
-.antes-carrusel p {
-    padding: 20px;
-    background-color: rgb(179, 192, 158);
-    color: black;
+    
+header {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    background-color:  rgb(133, 40, 40) ;  
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;  
+    display: flex;
+    
+    }
+header nav {   
+        width: 100%;      
+       justify-content: end;
+        }
+
+header nav ul {      
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    }
+
+header nav ul li {      
+    margin: 10px;        
+    }
+    
+header nav ul li a {  
+    
+        color: beige;
+        text-decoration: none; 
+           
+        }
+
+.antes-carrusel {
+    width: 100%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .carrousel1{
@@ -39,15 +54,20 @@ body{
     }
 
 footer {
-    
-    padding: 6px;
-    background-color:rgb(133, 40, 40);
+    background-color:  rgb(133, 40, 40) ; 
+    padding: 30px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
     }
+.foterdiv{
+    display: flex;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
 
-.footerlook div {
-        display: flex;
-        justify-content: space-around;
-    }
+
 
 .galeria{
     background-color: aqua;
